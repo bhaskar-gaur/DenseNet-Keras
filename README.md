@@ -26,7 +26,7 @@ We achieve 91% accuracy as compared to Paper's 93% (without augmentation) and 94
 ## SGD:
 lr=0.1, decay=1e-4, momentum=0.9, nesterov=True
 
-### Epoch 1 to 150:
+### Epoch 1 to 150: lr=0.1
 
 ![Alt text](images/accuracy_epoch_1_150.png?raw=true "Accuracy for Epoch 1 to 150")
 
