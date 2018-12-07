@@ -20,8 +20,8 @@ Densely Connected Convolutional Networks https://arxiv.org/abs/1608.06993
 We achieve 91% accuracy as compared to Paper's 93% (without augmentation) and 94.7% (with augmentation) for CIFAR10 database.
 
 ## Future Work:
--Implement DenseNet with k=12, Depth=40, Param=1M & achieve 93% accuracy with SGD in 300 epochs.
--Implement DenseNet-BC with k=12, Depth=100, Param=0.8M & study any increase in accuracy.
+- Implement DenseNet with k=12, Depth=40, Param=1M & achieve 93% accuracy with SGD in 300 epochs.
+- Implement DenseNet-BC with k=12, Depth=100, Param=0.8M & study any increase in accuracy.
 
 ## SGD:
 lr=0.1, decay=1e-4, momentum=0.9, nesterov=True
@@ -39,7 +39,7 @@ lr=0.1, decay=1e-4, momentum=0.9, nesterov=True
 ![Alt text](images/accuracy_epoch_201_250.png?raw=true "Accuracy for Epoch 201 to 250")
 
 ## Requirements:
--Keras
--Tensorflow
--numpy
--matplotlib
+- Keras
+- Tensorflow
+- numpy
+- matplotlib
